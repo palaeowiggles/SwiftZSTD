@@ -5,7 +5,7 @@ Swift Wrapper around ZSTD Compression Library
 
 Zstandard is required to be installed in order to build this package. See https://github.com/facebook/zstd for additional information, including licensing.
 
-On OS X the easiest was to install Zstandard is with [homebrew](https://brew.sh)
+On OS X the easiest way to install Zstandard is with [homebrew](https://brew.sh)
 ```sh
 brew install zstd
 ```
