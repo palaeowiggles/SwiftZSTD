@@ -1,0 +1,4 @@
+module zstd {
+    umbrella header "zstd.h"
+    link "zstd"
+}
