@@ -1,4 +1,4 @@
-// 10 training sets of json varrying in size of items
+// 100 training sets of the same json object
 let trainingJson = [
 """
   {
