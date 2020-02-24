@@ -41,7 +41,7 @@ public class DictionaryZSTDProcessor
         if Junk.retVal == nil {
             dict.withUnsafeBytes { p in
                 Junk.retVal = ZSTD_createDDict(p.baseAddress, dict.count)
-                haveDDict = false
+                haveDDict = true
             }
         }
         return Junk.retVal
